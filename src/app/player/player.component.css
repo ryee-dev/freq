@@ -1,0 +1,108 @@
+
+h1 {
+  color:white;
+  position: absolute;
+  z-index: 1;
+  }
+
+#play-button {
+  display: block;
+  margin: 0 auto;
+  height: 100px;
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(270deg, #c10000, #f7b000, #02cbe1, #dd4600);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+
+.middle {
+  margin: 20px;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+#play-button:hover {
+  cursor: pointer;
+}
+
+#play-button:active {
+  height: 90px;
+}
+
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+#play, #pause {
+  background-color: black;
+  border: black;
+}
+
+.playpause {
+  text-align: center;
+}
+.playbutton {
+  width: 100px;
+}
+
+.pausebutton {
+  width: 120px;
+}
+
+.player-visual {
+  position: relative;
+  margin: 12% auto;
+  display: block;
+}
+
+nav {
+  background-color: black !important;
+  z-index: 1;
+}
+.nav-link {
+  color: white !important;
+}
+
+#toggle {
+  background-color:#53A351;
+}
+
+#enter {
+  background-color: black;
+  border: black;
+}
+
+.dropdown-menu {
+  width: 250px;
+}

@@ -1,0 +1,60 @@
+h2, h3 {
+  color: white !important;
+  text-align: center;
+  font-family: 'Tajawal', sans-serif;
+}
+
+canvas {
+  display: none;
+}
+
+#logo {
+  display: block;
+  position: relative;
+  height: 300px;
+  margin: 0 auto;
+  z-index: 1;
+  background: linear-gradient(270deg, #c10000, #f7b000, #02cbe1, #dd4600);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+.scheme{
+  width: auto;
+  text-align: center;
+  background-color: black;
+  display: block;
+  margin: 0 auto;
+}
+.results {
+  position:relative;
+    z-index: 1;
+}
+.bigDiv {
+  background-color:black;
+  display: block;
+  margin: 0 auto;
+  text-align:center;
+}
+.butt {
+  position: relative;
+  z-index: 1;
+}

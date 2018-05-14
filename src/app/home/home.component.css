@@ -1,0 +1,59 @@
+#computer, #phone{
+  width:90px;
+}
+
+button {
+  width: 300px;
+  height: 100px;
+  margin: 30px;
+  background: linear-gradient(270deg, #c10000, #f7b000, #02cbe1, #dd4600);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.player-visual {
+  position: relative;
+  margin: 12% auto;
+  display: block;
+}
+
+#logo {
+  display: block;
+  position: relative;
+  height: 500px;
+  margin: 0 auto;
+  z-index: 1;
+  background: linear-gradient(270deg, #c10000, #f7b000, #02cbe1, #dd4600);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+.button-container {
+  position:relative;
+    z-index: 1;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
